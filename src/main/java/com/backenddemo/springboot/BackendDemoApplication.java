@@ -21,7 +21,7 @@ public class BackendDemoApplication implements CommandLineRunner {
 	//Generate default users
 	@Override
 	public void run(String... args) throws Exception {
-		this.userRepository.save(new User("Koichi", "Sugi", "demo-spring-backend@gmail.com","Jan 23th","Arts","Engineer","Tokyo"));
+		this.userRepository.save(new User("Koichi", "Sugi", "demo@gmail.com","Jan 23th","Arts","Engineer","Tokyo"));
 		this.userRepository.save(new User("Elon", "Musk", "elon-mask@gmail.com","Jan 23th","Arts","Engineer","Tokyo"));
 		this.userRepository.save(new User("Bill", "Gates", "bill-gates@gmail.com","Jan 23th","Arts","Engineer","Tokyo"));
 	}
